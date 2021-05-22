@@ -1,0 +1,36 @@
+{
+  "name": "graphql-beginner-series",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Beginner GraphQL Series",
+  "main": "index.js",
+  "scripts": {
+    "start": "node",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theskinnycoder/graphql-beginner-series.git"
+  },
+  "keywords": [
+    "graphql",
+    "apollo",
+    "react"
+  ],
+  "author": {
+    "name": "theskinnycoder",
+    "email": "18131a0505@gvpce.ac.in"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theskinnycoder/graphql-beginner-series/issues"
+  },
+  "homepage": "https://github.com/theskinnycoder/graphql-beginner-series#readme",
+  "dependencies": {
+    "apollo-server": "^2.24.1",
+    "graphql": "^15.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
