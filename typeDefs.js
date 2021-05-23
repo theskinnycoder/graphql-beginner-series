@@ -12,11 +12,12 @@ const typeDefs = gql`
     sayCheese: String
     names: [String!]!
     tasks: [Task!]!
+    task(id: ID!): Task!
   }
 
   type Mutation {
     newTask(content: String!): Task!
-    updateTask: Task!
+    updateTask(id: ID!): Task!
     deleteTask(id: ID!): ID!
   }
 `;
