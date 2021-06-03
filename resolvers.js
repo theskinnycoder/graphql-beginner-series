@@ -1,13 +1,13 @@
-const names = ["Dani", "Mia", "Lana"];
+const names = ['Dani', 'Mia', 'Lana'];
 
 const resolvers = {
   Query: {
-    helloThere: () => "General Kenobi",
+    helloThere: () => 'General Kenobi',
     // sayCheese: () => 5
     // sayCheese: () => null
-    sayCheese: () => "Cheeeese!",
-    names: () => names
-  }
+    sayCheese: () => 'Cheeeese!',
+    names: () => names,
+  },
 };
 
 export default resolvers;
