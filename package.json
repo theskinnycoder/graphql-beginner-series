@@ -5,8 +5,8 @@
   "description": "Beginner GraphQL Series",
   "main": "index.js",
   "scripts": {
-    "start": "node --experimental-modules",
-    "dev": "nodemon --experimental-modules"
+    "start": "node",
+    "dev": "nodemon"
   },
   "repository": {
     "type": "git",
