@@ -1,7 +1,7 @@
 const resolvers = {
   Query: {
-    helloThere: () => "General Kenobi"
-  }
+    helloThere: () => 'General Kenobi',
+  },
 };
 
 export default resolvers;

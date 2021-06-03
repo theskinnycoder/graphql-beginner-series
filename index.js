@@ -1,12 +1,12 @@
-import { ApolloServer } from "apollo-server";
-import resolvers from "./resolvers.js";
-import typeDefs from "./typeDefs.js";
+import { ApolloServer } from 'apollo-server';
+import resolvers from './resolvers.js';
+import typeDefs from './typeDefs.js';
 
 (async () => {
   try {
     const server = new ApolloServer({
       typeDefs,
-      resolvers
+      resolvers,
     });
     const { url } = await server.listen(3000);
     console.log(`Server listening for queries at ${url}`);
