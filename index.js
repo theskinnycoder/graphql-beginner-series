@@ -8,7 +8,7 @@ import typeDefs from './typeDefs.js';
       typeDefs,
       resolvers,
     });
-    const { url } = await server.listen(3000);
+    const { url } = await server.listen(4000);
     console.log(`Server listening for queries at ${url}`);
   } catch (error) {
     console.log(error);
