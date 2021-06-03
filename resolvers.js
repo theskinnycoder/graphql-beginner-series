@@ -20,7 +20,7 @@ const resolvers = {
   Query: {
     helloThere: () => 'General Kenobi',
     tasks: () => tasks,
-    task: (_, { id }) => tasks.find((task) => task.id === id),
+    task: (_, { id }) => tasks.find((task) => task.id === parseInt(id)),
   },
   Mutation: {
     newTask: (_, { content }) => {

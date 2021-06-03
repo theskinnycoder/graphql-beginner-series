@@ -2,7 +2,7 @@ import { useQuery } from '@apollo/client';
 import React from 'react';
 import { HELLO } from '../graphql/queries.js';
 
-const NotesList = () => {
+const TasksList = () => {
   const { data, loading, error } = useQuery(HELLO);
 
   if (loading) return <h1>Loading...</h1>;
@@ -11,4 +11,4 @@ const NotesList = () => {
   return <h1>{data.helloThere}</h1>;
 };
 
-export default NotesList;
+export default TasksList;
